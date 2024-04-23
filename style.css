@@ -1,3 +1,7 @@
+html {
+    max-width: fit-content;
+    max-height: fit-content;
+}
 body {
     background-color: rgba(18, 61, 102, 0.603);
     color:antiquewhite;
