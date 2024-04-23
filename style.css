@@ -1,0 +1,68 @@
+body {
+    background-color: rgba(18, 61, 102, 0.603);
+    color:antiquewhite;
+}
+#name {
+    margin-left: 20px;
+    text-transform: uppercase;
+    border: 5px solid antiquewhite;
+    border-style:groove;
+    text-align: center;
+    padding: 2%;
+    color: antiquewhite;
+}
+#contatopag {
+    border: 5px groove antiquewhite;
+    margin: 0%;
+    h1{color: antiquewhite;}
+    text-align: center;
+    padding: 20%;
+}
+p {
+    color: antiquewhite;
+}
+img {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 30%;
+    margin-left: 36%;
+    border: 3px solid antiquewhite;
+}
+#first {
+    width: 50%;
+    margin-left: 26%;
+    display: inline-flex;
+    margin-bottom: 2%;
+}
+#contato {
+    color: antiquewhite;
+    text-align: center;
+    width: 25%;
+    border: 2px groove antiquewhite;
+    padding: 10px;
+    margin-right: 80px;
+}
+#linkedin {
+    color: antiquewhite;
+    text-align: center;
+    width: 25%;
+    border: 2px groove antiquewhite;
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#portfolio {
+    color: antiquewhite;
+    text-align: center;
+    width: 25%;
+    border: 2px groove antiquewhite;
+    padding: 10px;
+    margin-left: 80px;
+}
+#last {
+    width: 50%;
+    margin-left: 25%;
+}
+.titulo {
+    text-decoration: underline;
+}
