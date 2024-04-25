@@ -95,7 +95,8 @@ img {
         margin: 0%;
     }
     #first {
-        position: static;
+        position: relative;
+        right: 30px;
         margin: 0%;
     }
 }
