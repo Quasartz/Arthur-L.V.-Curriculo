@@ -67,7 +67,7 @@ img {
 .titulo {
     text-decoration: underline;
 }
-@media (max-width:600px) {
+@media (max-width:480px) {
     #name {
         width:100%;
         padding: 0%;
