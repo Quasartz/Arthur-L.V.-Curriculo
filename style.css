@@ -22,10 +22,11 @@ p {
     color: antiquewhite;
 }
 img {
+    position: relative;
+    left: 675px;
     margin-top: 1%;
     margin-bottom: 2%;
     width: 30%;
-    margin-left: 36%;
     border: 3px solid antiquewhite;
 }
 #first {
@@ -65,4 +66,35 @@ img {
 }
 .titulo {
     text-decoration: underline;
+}
+@media (max-width:600px) {
+    #name {
+        width:100%;
+        padding: 0%;
+        margin: 0%;
+    }
+    #contato {
+        margin-right: 10px;
+        width: 100%;
+    }
+    #linkedin {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin: 0%;
+        width: 100%;
+    }
+    #portfolio {
+        width: 100%;
+        margin-left: 10px;
+    }
+    img {
+        position: static;
+        width: 100%;
+        margin-left: 0%;
+    }
+    #first {
+        position: relative;
+        left: 60px;
+        margin: 0%;
+    }
 }
