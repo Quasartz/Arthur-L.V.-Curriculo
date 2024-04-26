@@ -3,7 +3,6 @@ body {
     color:antiquewhite;
 }
 #name {
-    margin-left: 20px;
     text-transform: uppercase;
     border: 5px solid antiquewhite;
     border-style:groove;
@@ -14,9 +13,25 @@ body {
 #contatopag {
     border: 5px groove antiquewhite;
     margin: 0%;
-    h1{color: antiquewhite;}
+    h1{
+        position: relative;
+        top: 200px;
+        color: antiquewhite;
+        font-size: 60px;
+    }
     text-align: center;
-    padding: 20%;
+    padding: 2.5%;
+}
+#email {
+    font-size: 20px;
+    margin-bottom: 30%;
+    position: relative;
+    top: 200px;
+}
+#tel {
+    position: relative;
+    bottom: 340px;
+    font-size: 20px;
 }
 p {
     color: antiquewhite;
@@ -30,10 +45,11 @@ img {
     border: 3px solid antiquewhite;
 }
 #first {
-    width: 50%;
-    margin-left: 26%;
+    position: relative;
+    left: 52px;
+    top: 45px;
     display: inline-flex;
-    margin-bottom: 2%;
+    margin-bottom: 3.5%;
 }
 #contato {
     color: antiquewhite;
@@ -61,13 +77,17 @@ img {
     margin-left: 80px;
 }
 #last {
-    width: 50%;
-    margin-left: 25%;
+    position: relative;
+    text-align: center
 }
 .titulo {
     text-decoration: underline;
 }
-@media (max-width:600px) {
+#sobre {
+    position: relative;
+    padding-left: 80px;
+}
+@media (max-width: 680px) {
     #name {
         width:100%;
         padding: 0%;
@@ -89,12 +109,35 @@ img {
     }
     img {
         position: static;
-        width: 100%;
-        margin-left: 0%;
-    }
+        width: 100%;       
+        }
     #first {
-        position: relative;
-        left: 5px;
+        width: 100%;
+        position: static;
+        text-align: center;
+    }
+    #contatopag {
         margin: 0%;
+        padding: 0%;
+        }
+    #contatopag > h1 {
+        width: 100%;
+        position: static;
+    }
+    #email {
+        width: 100%;
+        position: static;
+        padding: 0%;
+        text-align: center;
+        }
+    #tel {
+        width: 100%;
+        position: static;
+        padding-top: 0%;
+    }
+    #footer {
+        padding-bottom: 405px;
+        position: relative;
+        top: 350px;
     }
 }
