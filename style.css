@@ -12,7 +12,7 @@ body {
 }
 #contatopag {
     border: 5px groove antiquewhite;
-    margin-right: 1%;
+    margin-right: 0%;
     text-align: center;
     max-height: 900px;
     h1{
@@ -22,15 +22,19 @@ body {
     } 
 }
 #email {
+    display: block;
     font-size: 20px;
-    margin-bottom: 30%;
-    position: relative;
-    top: 200px;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    position: static;
+    color: antiquewhite;
 }
 #tel {
-    position: relative;
-    bottom: 340px;
+    display: block;
+    position: static;
     font-size: 20px;
+    color: antiquewhite;
+    margin-bottom: 21%;
 }
 p {
     color: antiquewhite;
@@ -130,22 +134,26 @@ img {
         margin: 0%;
     }
     #contatopag {
-        margin-right: 1%;
+        margin-right: 0%;
         padding: 0%;
         width: 98%;
         position: static;
         }
     #email {
-        width: 100%;
-        position: relative;
-        top: 100px;
+        display: block;
+        position: static;
+        top: 50px;
         padding: 0%;
-        text-align: center;
+        margin-top: 20%;
+        margin-bottom: 5%;
         }
     #tel {
-        width: 100%;
+        display: block;
         position: static;
-        padding-top: 0%;
+        top:50px;
+        color: antiquewhite;
+        padding: 0%;
+        margin-bottom: 5%;
     }
     #footer {
         padding-bottom: 400px;
